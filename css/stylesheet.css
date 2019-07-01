@@ -1,0 +1,102 @@
+/* mes 3 polices
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Changa', sans-serif;
+font-family: 'Expletus Sans', cursive;
+*/
+
+
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Expletus Sans', cursive;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column  ;
+}
+
+header>nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_logo {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+p {
+    background-color: rgba(255, 136, 0, 0.5);
+    border-radius: 10px;
+    width: 90%;
+}
+
+li {
+    background-color: rgba(255, 136, 0, 0.5);
+    border-radius: 10px;
+    width: 90%; 
+}
+
+
+
+a {
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    border: solid 1px blue;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+a:hover {
+    background-color: white;
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    border: solid 1px blue;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+    color: orange;
+    text-shadow: 2px 2px 2px black;  
+    text-decoration: underline;
+    margin: 20px auto;
+}
+
+h2 {
+    color: rgb(82, 91, 173);
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+h3 {
+    background-color: blanchedalmond;
+    color: rgb(82, 91, 173);
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+    font-size: 1.5em;
+    border: solid 1px blue;
+    border-radius: 10px;
+}
+
+.photodidi {
+    text-align: center;
+}
+
